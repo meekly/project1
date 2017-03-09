@@ -1,5 +1,16 @@
+/*
+ * #e67300; orange. main color
+ * #ff8000; light-orange. also main color
+ * #333; black. main color
+ * #111; dark-black. also main color
+ */
+
+body {
+	background-color: #ffcc99;
+}
+
 ul.menu {	
-	position: fixed;
+/*	position: fixed; */
 	top: 0;
 	width: 100%;
 	list-style-type: none;
@@ -17,7 +28,7 @@ ul.menu li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 8px 16px;
 	text-decoration: none;
 }
 
@@ -27,6 +38,9 @@ ul.menu li a:hover {
 }
 
 ul.menu .active {
-	background-color: #4caf50;
+	background-color: #e67300;
 	color: white;
+}
+ul.menu li.active a:hover{
+	background-color:#ff8000;
 }

@@ -1,0 +1,55 @@
+/*
+ * #e67300; orange. main color
+ * #ff8000; light-orange. also main color
+ * #333; black. main color
+ * #111; dark-black. also main color
+ */
+
+.hat {
+	position: relative;
+	width: 100%;
+}
+.hat img {
+	width: 100%;
+	background-color:#404040;
+}
+
+.search {
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+.search input.search-button {
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 3px;
+	background-image: url(../img/search-icon.png);
+	background-size: 19px 19px;
+}	
+.search input.search-button:hover {
+	box-shadow: 0 0 100px 1px;
+}	
+
+.desk {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 98%;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+/*	box-shadow: 0 80px 380px 5px; */
+	background-color:#404040;
+
+}
+.desk th {
+	color: #bfbfbf;
+}
+.desk tr:nth-child(even) {background-color: #666666}
+
+.desk td {
+	min-height: 50px;
+    padding: 15px;
+}
