@@ -5,7 +5,8 @@
 		<title>Checkers</title>
 		<link rel="stylesheet" type="text/css" href="./css/menu.css">
 		<link rel="stylesheet" type="text/css" href="./css/forum.css">
-		<!--		<script src="./javascript/menu.js"></script> -->
+		<script src="./javascript/jquery.js"></script>
+		<script src="./javascript/forum.js"></script>
 	
 	</head>
 <body>
@@ -32,18 +33,40 @@
 			<input type="button" class="search-button">
 		</div>
 
+	<!-- FORUM -->
 		<table class="desk">
 			<tr>
 				<th>Theme</th>
 				<th>Description</th>
 				<th>Author</th>
-				<th>Replies</th>
+				<th>Questions</th>
 			</tr>
 			<tr>
-				<td> FAQ </td>
+				<td><a href="#" class="show-questions 1">+</a> FAQ </td>
 				<td> First Asked Questions </td>
 				<td align="center"> Meekly </td>
-				<td align="center"> 0 </td>
+				<td align="center"> 2 </td>
+			</tr>
+			<tr class="questions 1" hidden>
+				<td class="questions" colspan="4">
+				<table class="questions">
+					<tr>
+						<th>Question</th>
+						<th>Author</th>
+						<th>Answers</th>
+					</tr>
+					<tr>
+						<td>Can I play for free?</td>
+						<td align="center">Meekly</td>
+						<td align="center">0</td>
+					</tr>
+					<tr>
+						<td>How many games are supported here?</td>
+						<td align="center">Meekly</td>
+						<td align="center">0</td>
+					</tr>
+				</table>
+				</td>
 			</tr>
 			<tr>
 				<td> Rules </td>
@@ -58,6 +81,7 @@
 				<td align="center"> 0 </td>
 			</tr>
 		</table>
+	<!-- MUROF -->
 
 </body>
 </html>
