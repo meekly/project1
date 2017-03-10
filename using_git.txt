@@ -30,3 +30,9 @@ git push origin branch_name
 
 # Удалить ветку
 git branch -d branch_name
+
+# Слить ветки
+git merge branch_name
+
+# Дополнить последний коммит
+git commit --amend

@@ -16,9 +16,16 @@ document.getElementById("ok-button").onclick = function() {
     w.forEach(function(v, i) {
         if(v.checked) { 
             colorScheme = scheme[i];
-            Step();
+            drawField();
             return;
         }
     });
-    
 }
+
+window.onresize = function() {
+    if (document.getElementById("game").style.display == "block") {
+        initFieldSize();
+        drawField();
+    }
+}
+
