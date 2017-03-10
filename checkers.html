@@ -17,13 +17,30 @@
 				<li style="float:right"><a href="#">About</a></li>
 			</ul>
         <!-- GAME -->
-            <div class = "game">
-                <canvas id = "game" width = "640" height = "640";>
+			<input type = "button" id = "play-button" value = "PLAY">
 
-                    <div id = "settings">Settings</div>
-                </canvas>
-                
-            </div>
-            <script src="./javascript/checkers.js"></script>
+            <div id = "game">
+                <canvas id = "field" width = "640" height = "640"></canvas>		
+				
+				<div class = "settings">
+					<label> <span style="padding:5px">Settings</span>
+					<input type = "button" id = "settings-button"></label>
+		
+					<div id = "settings-window">
+						<ol>
+							<li>
+								Color Sheme <br>
+								<input type = "radio" name = "color" value = "blue" checked> Blue <br>
+								<input type = "radio" name = "color" value = "green"> Green <br>
+								<input type = "radio" name = "color" value = "pink"> Pink <br>
+								<input type = "radio" name = "color" value = "sandy"> Sandy <br>
+							</li>
+						</ol>
+						<input type = "button" id = "ok-button" value = "OK">
+					</div>					
+				</div>
+			</div>		
+			<script src="./javascript/checkers_settings.js"></script>
+            <script src="./javascript/checkers_game.js"></script>
 	</body>
 </html>

@@ -13,7 +13,7 @@ var scheme = [
 ]
 /******************************/
 
-var canvas = document.getElementById("game"),
+var canvas = document.getElementById("field"),
 	ctx = canvas.getContext("2d"),
     scale = 80,
     gap = scale * 0.03,
@@ -35,6 +35,7 @@ function initGame() {
             else field[i][j] = {};
         }
     }
+    Step();
 }
 
 function Step() {
@@ -58,5 +59,3 @@ function Step() {
         }
     }
 }
-initGame();
-Step();
