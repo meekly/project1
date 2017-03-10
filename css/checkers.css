@@ -1,0 +1,18 @@
+.game {
+    margin-top: 10px;
+    text-align: center;
+    
+}   
+
+
+#settings {
+    /*position: absolute;*/
+    
+    /*top: 10px;*/
+    height: 500px;
+    width: 350px;
+    margin: 20px;
+    border: 5px solid black;
+    float: left;
+    
+}
