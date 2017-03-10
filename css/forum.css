@@ -12,7 +12,6 @@
 .hat img {
 	width: 100%;
 	background-color:#404040;
-	border-radius: 0 0 5px 5px;
 }
 
 .search {
@@ -48,9 +47,24 @@
 .desk th {
 	color: #bfbfbf;
 }
-.desk tr:nth-child(even) {background-color: #666666}
+.desk tr:nth-child(3n-1) {background-color: #666666}
 
 .desk td {
 	min-height: 50px;
     padding: 15px;
 }
+
+.desk tr.questions {
+	background-color: transparent;
+}
+
+table.questions {
+	border-collapse: collapse;
+	width: 95%;
+	float: right;
+}
+
+table.questions tr {
+	background-color: #595959;
+}
+table.questions tr:nth-child(even) {background-color: #737373}
