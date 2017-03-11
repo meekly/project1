@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Checkers</title>
+		<link rel="stylesheet" type="text/css" href="./css/menu.css">
+        <link rel="stylesheet" type="text/css" href="./css/checkers.css">
+		<!--		<script src="./javascript/*.js"></script> -->
+	</head>
+	<body>
+        <!-- MENU -->
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="forum.html">Forum</a></li>
+				<li class="active"><a href="checkers.html">Checkers</a></li>
+				<li style="float:right"><a href="#">Log in</a></li>
+				<li style="float:right"><a href="#">About</a></li>
+			</ul>
+        <!-- GAME -->
+			<input type = "button" id = "play-button" value = "PLAY">
+
+            <div id = "game">
+                <canvas id = "field" width = "640" height = "640"></canvas>		
+				
+				<div class = "settings">
+					<!--<label> <span style="padding:5px">Settings</span>-->
+					<input type = "button" id = "settings-button"></label>
+		
+					<div id = "settings-window">
+						<ol>
+							
+							<li>Color Sheme</li> 
+							<ul>
+							<li>	<input type = "radio" name = "color" value = "blue" checked> Blue </li>
+							<li>	<input type = "radio" name = "color" value = "green"> Green </li>
+							<li>	<input type = "radio" name = "color" value = "pink"> Pink </li>
+							<li>	<input type = "radio" name = "color" value = "sandy"> Sandy </li>
+							</ul>
+						</ol>
+						<input type = "button" id = "ok-button" value = "OK">
+					</div>					
+				</div>
+			</div>
+			<script src="./javascript/jquery.js"></script>			
+			<script src="./javascript/checkers_settings.js"></script>
+            <script src="./javascript/checkers_game.js"></script>
+	</body>
+</html>
