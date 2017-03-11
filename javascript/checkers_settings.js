@@ -6,10 +6,19 @@ document.getElementById("play-button").onclick = function() {
 
 var counter = 0;
 document.getElementById("settings-button").onclick = function() {
-    var w = document.getElementById("settings-window").style;
-    if ( counter++ % 2 == 0) w.display = "block"
-    else w.display = "none"
+    var w = document.getElementById("settings-window");
+	w.click(function() {
+			
+	});
+    
 }
+
+$(document).ready(function() {
+		var show_questions = $("#settings-button");
+		show_questions.click(function(){
+			$("#settings-window").toggle(800);
+		});
+	})		
 
 document.getElementById("ok-button").onclick = function() {
     var w = document.getElementsByName("color");
