@@ -1,0 +1,40 @@
+/*
+ * #e67300; orange. main color
+ * #ff8000; light-orange. also main color
+ * #333; black. main color
+ * #111; dark-black. also main color
+ */
+
+.main_img {
+	align: 'middle';
+	position: middle;
+	width: 100%;
+}
+.main_img img {
+
+	width: 100%;
+	background-color:#e67300;
+}
+
+
+.Main_Site {
+	/* margin-top:100px; */
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 50%;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+/*	box-shadow: 0 80px 380px 5px; */
+	background-color:#404040;
+}
+
+.Main_Site th {
+	color: #bfbfbf;
+}
+.Main_Site tr:nth-child(3n-1) {background-color: #666666}
+
+.Main_Site td {
+	min-height: 50px;
+    padding: 15px;
+}
