@@ -17,25 +17,30 @@
 				<li style="float:right"><a href="#">About</a></li>
 			</ul>
         <!-- GAME -->
-			<input type = "button" id = "play-button" value = "PLAY">
+			<input type = "button" id = "play-single" value = "PLAY WITH COMPUTER">
+			<input type = "button" id = "play-multi" value = "PLAY WITH FRIEND">
 
             <div id = "game">
                 <canvas id = "field" width = "800" height = "800"></canvas>		
 				
 				<div class = "settings">
-					<input type = "button" id = "settings-button">
+					<input type = "button" id = "settings-button" class = "setting-button">
 					
 					<div id = "settings-window">
 						<ol>							
-							<li>Color Sheme</li> 
+							<li>Color Sheme</li>
 							<ul>
 								<li>	<input type = "radio" name = "color" value = "blue" checked> Blue </li>
 								<li>	<input type = "radio" name = "color" value = "green"> Green </li>
 								<li>	<input type = "radio" name = "color" value = "pink"> Pink </li>
 								<li>	<input type = "radio" name = "color" value = "sandy"> Sandy </li>
 							</ul>
+							<li>New Game</li>
+								<input type = "button" id = "new-single-game" class = "setting-button" value = "SINGLEPLAYER">
+								<input type = "button" id = "new-multi-game" class = "setting-button" value = "MULTIPLAYER">	
 						</ol>
-						<input type = "button" id = "ok-button" value = "OK">
+						
+						<!-- <input type = "button" id = "ok-button" class = "setting-button" value = "OK"> -->
 					</div>					
 				</div>
 			</div>
