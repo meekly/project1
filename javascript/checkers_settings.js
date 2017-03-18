@@ -1,33 +1,69 @@
-document.getElementById("play-button").onclick = function() {
-    document.getElementById("play-button").style.display = "none";
+document.getElementById("play-single").onclick = function() {
+    document.getElementById("play-single").style.display = "none";
+    document.getElementById("play-multi").style.display = "none";
     document.getElementById("game").style.display = "block";
+    typeGame = "single";
     initGame();
 }
 
-var counter = 0;
-document.getElementById("settings-button").onclick = function() {
-    var w = document.getElementById("settings-window");
-	w.click(function() {
-			
-	});
-    
+document.getElementById("play-multi").onclick = function() {
+    document.getElementById("play-single").style.display = "none";
+    document.getElementById("play-multi").style.display = "none";
+    document.getElementById("game").style.display = "block";
+    typeGame = "multi";
+    initGame();
 }
+
 
 $(document).ready(function() {
-		var show_questions = $("#settings-button");
-		show_questions.click(function(){
-			$("#settings-window").toggle(800);
-		});
-	})		
-
-document.getElementById("ok-button").onclick = function() {
-    var w = document.getElementsByName("color");
-    w.forEach(function(v, i) {
-        if(v.checked) { 
-            colorScheme = scheme[i];
-            Step();
-            return;
-        }
+    var show_questions = $("#settings-button");
+    show_questions.click(function(){
+        $("#settings-window").toggle(800);
     });
-    
+})		
+
+/***CHANGE FIELD SIZE***/
+window.onresize = function() {
+    if (document.getElementById("game").style.display == "block") {
+        initFieldSize();
+        drawField();
+    }
 }
+
+/***START NEW GAME***/
+document.getElementById("new-single-game").onclick = function() {
+    if (typeGame == "single" && TURN == "black") setTimeout('_reInitGame("single")', 300); 
+    else _reInitGame("single");
+}
+
+document.getElementById("new-multi-game").onclick = function() {
+    _reInitGame("multi");
+}
+
+/***CHANGE COLOR SCHEME***/
+document.getElementsByName("color")[0].onclick = function(){
+    if (this.checked) {
+        colorScheme = scheme[0];
+        drawField();
+    } 
+}
+document.getElementsByName("color")[1].onclick = function(){
+    if (this.checked) {
+        colorScheme = scheme[1];
+        drawField();
+    } 
+}
+document.getElementsByName("color")[2].onclick = function(){
+    if (this.checked) {
+        colorScheme = scheme[2];
+        drawField();
+    } 
+}
+document.getElementsByName("color")[3].onclick = function(){
+    if (this.checked) {
+        colorScheme = scheme[3];
+        drawField();
+    } 
+}
+
+
