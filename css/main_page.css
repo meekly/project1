@@ -5,36 +5,85 @@
  * #111; dark-black. also main color
  */
 
+
 .main_img {
-	align: 'middle';
-	position: middle;
-	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 1%;
+	text-align: center;
 }
 .main_img img {
-
-	width: 100%;
+	width: auto;
 	background-color:#e67300;
 }
 
-
 .Main_Site {
-	/* margin-top:100px; */
-	margin: 0 auto;
-	border-collapse: collapse;
+	margin-left: 25%;
 	width: 50%;
-	color: white;
-	border: 0;
+	margin-right: 25%;
+}
+
+.Main_Site h1 {
+	text-align: center;
+	font-style: italic;
+	font-family: serif;
+	font-size: 30pt;
+}
+
+
+.Main_Site table{
+	/* margin-top:100px; */
+	width: 100%;
+	border: 1px;
 	border-radius: 5px;
 /*	box-shadow: 0 80px 380px 5px; */
-	background-color:#404040;
 }
 
-.Main_Site th {
-	color: #bfbfbf;
-}
-.Main_Site tr:nth-child(3n-1) {background-color: #666666}
+
+
+.Main_Site tr:nth-child(3n-1) {}
 
 .Main_Site td {
-	min-height: 50px;
-    padding: 15px;
+	
+    padding: 0px;
+    text-align: center;
+
+
+    background-color: white;
+	
+
+    border-style: solid;
+	border-color: black;
+	border-collapse: separate;
+	border-width: 1px;
+	
+	
 }
+
+.Main_Site img{
+
+}
+
+.Main_Site p{
+	font-style: italic;
+	font-size: 20px;
+}
+
+
+.Main_Site a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.Main_Site div{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  /* Плавное изменение прозрачности и увеличения */
+    
+}
+.Main_Site a:hover div{
+    opacity: 0.9; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(1.15); /* Увеличение картинки */
+}
+
+
