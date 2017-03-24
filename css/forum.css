@@ -69,3 +69,7 @@ table.questions tr {
 	background-color: #595959;
 }
 table.questions tr:nth-child(even) {background-color: #737373}
+table a {
+	color: white;
+	text-decoration: none;
+}
