@@ -42,6 +42,7 @@
 	border-radius: 5px;
 /*	box-shadow: 0 80px 380px 5px; */
 	background-color:#404040;
+	margin-bottom: 20px;
 
 }
 .desk th {
@@ -68,3 +69,7 @@ table.questions tr {
 	background-color: #595959;
 }
 table.questions tr:nth-child(even) {background-color: #737373}
+table a {
+	color: white;
+	text-decoration: none;
+}

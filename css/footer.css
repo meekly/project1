@@ -1,0 +1,18 @@
+.body-wrapper {
+	display: block;
+	min-height: 600px;
+}
+#footer {
+	position: relative;
+	padding: 1px;
+	text-align: center;
+	height: 53px;
+	margin-top: 16px;
+	margin-bottom: 0;
+	background-color: #111;
+	clear: both;
+	color: white;
+}
+#footer a {
+	color: white;
+}
