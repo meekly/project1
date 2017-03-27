@@ -3,49 +3,57 @@
 	<head>
 		<title>Checkers</title>
 		<link rel="stylesheet" type="text/css" href="./css/menu.css">
-        <link rel="stylesheet" type="text/css" href="./css/checkers.css">
+		<link rel="stylesheet" type="text/css" href="./css/footer.css">
+		<link rel="stylesheet" type="text/css" href="./css/checkers.css">
 		<!--		<script src="./javascript/*.js"></script> -->
 	</head>
 	<body>
-        <!-- MENU -->
-			<ul class="menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">News</a></li>
-				<li><a href="forum.html">Forum</a></li>
-				<li class="active"><a href="checkers.html">Checkers</a></li>
-				<li style="float:right"><a href="#">Log in</a></li>
-				<li style="float:right"><a href="#">About</a></li>
-			</ul>
-        <!-- GAME -->
-			<input type = "button" id = "play-single" value = "PLAY WITH COMPUTER">
-			<input type = "button" id = "play-multi" value = "PLAY WITH FRIEND">
+		<div class="body-wrapper">
+		<!-- MENU -->
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="forum.html">Forum</a></li>
+			<li class="active"><a href="checkers.html">Checkers</a></li>
+			<li style="float:right"><a href="#">Log in</a></li>
+			<li style="float:right"><a href="#">About</a></li>
+		</ul>
+		<!-- GAME -->
+		<input type = "button" id = "play-single" value = "PLAY WITH COMPUTER">
+		<input type = "button" id = "play-multi" value = "PLAY WITH FRIEND">
 
-            <div id = "game">
-                <canvas id = "field" width = "800" height = "800"></canvas>		
-				
-				<div class = "settings">
-					<input type = "button" id = "settings-button" class = "setting-button">
-					
-					<div id = "settings-window">
-						<ol>							
-							<li>Color Sheme</li>
-							<ul>
-								<li>	<input type = "radio" name = "color" value = "blue" checked> Blue </li>
-								<li>	<input type = "radio" name = "color" value = "green"> Green </li>
-								<li>	<input type = "radio" name = "color" value = "pink"> Pink </li>
-								<li>	<input type = "radio" name = "color" value = "sandy"> Sandy </li>
-							</ul>
-							<li>New Game</li>
-								<input type = "button" id = "new-single-game" class = "setting-button" value = "SINGLEPLAYER">
-								<input type = "button" id = "new-multi-game" class = "setting-button" value = "MULTIPLAYER">	
-						</ol>
-						
-						<!-- <input type = "button" id = "ok-button" class = "setting-button" value = "OK"> -->
-					</div>					
-				</div>
+		<div id = "game">
+			<canvas id = "field" width = "800" height = "800"></canvas>		
+
+			<div class = "settings">
+				<input type = "button" id = "settings-button" class = "setting-button">
+
+				<div id = "settings-window">
+					<ol>							
+						<li>Color Sheme</li>
+						<ul>
+							<li>	<input type = "radio" name = "color" value = "blue" checked> Blue </li>
+							<li>	<input type = "radio" name = "color" value = "green"> Green </li>
+							<li>	<input type = "radio" name = "color" value = "pink"> Pink </li>
+							<li>	<input type = "radio" name = "color" value = "sandy"> Sandy </li>
+						</ul>
+						<li>New Game</li>
+						<input type = "button" id = "new-single-game" class = "setting-button" value = "SINGLEPLAYER">
+						<input type = "button" id = "new-multi-game" class = "setting-button" value = "MULTIPLAYER">	
+					</ol>
+
+					<!-- <input type = "button" id = "ok-button" class = "setting-button" value = "OK"> -->
+				</div>					
 			</div>
-			<script src="./javascript/jquery.js"></script>			
-			<script src="./javascript/checkers_settings.js"></script>
-            <script src="./javascript/checkers_game.js"></script>
+		</div>
+		</div>
+	<!-- FOOTER -->
+	<div id="footer">
+			<p>&copy; <a href="#">Andrey</a>, <a href="#">Valentin</a>,  <a href="#">Maxim</a>
+	</div>
+	<!-- RETOOF -->
+		<script src="./javascript/jquery.js"></script>			
+		<script src="./javascript/checkers_settings.js"></script>
+		<script src="./javascript/checkers_game.js"></script>
 	</body>
 </html>

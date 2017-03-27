@@ -18,7 +18,7 @@ document.getElementById("play-multi").onclick = function() {
 $(document).ready(function() {
     var show_questions = $("#settings-button");
     show_questions.click(function(){
-        $("#settings-window").toggle(800);
+        $("#settings-window").toggle(200);
     });
 })		
 
