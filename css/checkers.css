@@ -1,37 +1,31 @@
+#button-container {
+    text-align: center;
+}
+
 #play-single,
 #play-multi {
-    width: 180px;
-	height: 40px;
     color: white;
 	background-color: #ff8000;
 	border: 3px solid #ff8000;
 	border-radius: 5px;
     cursor: pointer;
-    margin-left: 45%;
     margin-top: 20%;
+    padding: 1%;
 }
 #play-multi {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 #play-single:hover,
 #play-multi:hover {
 	box-shadow: 0 0 50px 1px #ff8000;
 }
 
-#new-single-game,
-#new-multi-game {
-
-}
-
 #game {
     height: 100%;
     margin-top: 10px;
     display: none;
-}
-
-#field {
-    margin-left: 25%;
-}   
+    text-align: center;
+} 
 
 .settings {
     float: right;
@@ -39,11 +33,6 @@
     color: white;
     border-radius: 5px;
     margin-right: 10px;
-}
-
-#game #field {
-	width: 15%;
-	height: 15%;
 }
 
 #settings-window {
@@ -72,13 +61,6 @@
 	background-image: url(../img/settings-icon.png);
 	background-size: 19px 19px;
     float: right; 	
-}
-
-#ok-button {
-    width: 50px;
-	height: 25px;
-    margin: 10%;
-    margin-left: 40%;	
 }
 
 .setting-button {
