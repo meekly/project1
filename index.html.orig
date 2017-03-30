@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Checkers</title>
+		<link rel="stylesheet" type="text/css" href="./css/menu.css">
+<<<<<<< HEAD
+		<link rel="stylesheet" type="text/css" href="./css/main_page.css">
+		<!--		<script src="./javascript/*.js"></script> -->
+	</head>
+	<body>
+	
+=======
+		<link rel="stylesheet" type="text/css" href="./css/footer.css">
+		<!--		<script src="./javascript/*.js"></script> -->
+	</head>
+	<body>
+		<div class="body-wrapper">
+>>>>>>> meekly
+			<ul class="menu">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="forum.html">Forum</a></li>
+				<li><a href="checkers.html">Checkers</a></li>
+				<li style="float:right"><a href="#">Log in</a></li>
+				<li style="float:right"><a href="#">About</a></li>
+			</ul>
+<<<<<<< HEAD
+
+
+			<div class="main_img">
+				<img  src="./img/checkers.jpg">	
+			</div>
+
+			<div class="Main_Site">
+
+				<h1 class="Main_Header"> Welocome to checkers`s world! </h1>
+
+				<table>
+
+					<tr>
+						<td >
+							<a href="#">
+							<div>
+								<p>Rules</p>	
+								<img  src="./img/rules.jpg">
+							</div>
+							</a>
+						</td>
+
+						<td >
+							<a href="checkers.html">
+								<div>
+									<p>Just Play</p>	
+									<img  src="./img/go_to_checkers.jpg">
+								</div>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td >
+							<a href="forum.html">
+								<div>
+									<p>Go to Forum</p>	
+									<img  src="./img/forum.jpg">
+								</div>
+							</a>	
+						</td>
+						<td >
+							<a href="#">
+								<div>
+									<p>Register</p>	
+									<img  src="./img/registration.jpg">
+								</div>
+							</a>	
+						</td>
+					</tr>
+
+				</table>
+			</div>
+
+=======
+		</div>
+		<!-- FOOTER -->
+		<div id="footer">
+			<p>&copy; <a href="#">Andrey</a>, <a href="#">Valentin</a>,  <a href="#">Maxim</a>
+		</div>
+		<!-- RETOOF -->
+>>>>>>> meekly
+	</body>
+</html>

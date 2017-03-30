@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Checkers</title>
+		<link rel="stylesheet" type="text/css" href="./css/menu.css">
+		<link rel="stylesheet" type="text/css" href="./css/footer.css">
+		<link rel="stylesheet" type="text/css" href="./css/forum.css">
+		<script src="./javascript/jquery.js"></script>
+		<script src="./javascript/forum.js"></script>
+
+	</head>
+	<body>
+		<div class="body-wrapper">
+			<!-- MENU -->
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li class="active"><a href="forum.html">Forum</a></li>
+				<li><a href="checkers.html">Checkers</a></li>
+				<li style="float:right"><a href="#">Log in</a></li>
+				<li style="float:right"><a href="#">About</a></li>
+			</ul>
+<<<<<<< HEAD
+	<!-- UNEM -->
+
+	<!-- HAT -->
+			<div class="hat">
+				<img src="./img/forum-logo.png">	
+			</div>
+	<!-- TAH -->
+
+			<div class="search">
+				Search:
+				<input type="text">
+				<input type="button" class="search-button">
+			</div>
+=======
+			<!-- UNEM -->
+
+			<!-- HAT -->
+			<div class="hat">
+				<img src="./img/forum-logo.png">	
+			</div>
+			<!-- TAH -->
+>>>>>>> meekly
+
+			<div class="search">
+				Search:
+				<input type="text">
+				<input type="button" class="search-button">
+			</div>
+
+			<!-- FORUM -->
+			<table class="desk">
+				<tr>
+					<th>Theme</th>
+					<th>Description</th>
+					<th>Author</th>
+					<th>Questions</th>
+				</tr>
+				<tr>
+					<td><a href="#" class="show-questions 1">+</a> FAQ </td>
+					<td> First Asked Questions </td>
+					<td align="center"> Meekly </td>
+					<td align="center"> 2 </td>
+				</tr>
+				<tr class="questions 1" hidden>
+					<td class="questions" colspan="4">
+						<table class="questions">
+							<tr>
+								<th>Question</th>
+								<th>Author</th>
+								<th>Answers</th>
+							</tr>
+							<tr>
+								<td>Can I play for free?</td>
+								<td align="center">Meekly</td>
+								<td align="center">0</td>
+							</tr>
+							<tr>
+								<td><a href="how-many-games-are-supported.html">How many games are supported here?</a></td>
+								<td align="center">Meekly</td>
+								<td align="center">0</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><a href="#" class="show-questions 2">+</a> Rules </td>
+					<td> Rules of game Checkers </td>
+					<td align="center"> Meekly </td>
+					<td align="center"> 3 </td>
+				</tr>
+				<tr class="questions 2" hidden>
+					<td class="questions" colspan="4">
+						<table class="questions">
+							<tr>
+								<th>Question</th>
+								<th>Author</th>
+								<th>Answers</th>
+							</tr>
+							<tr>
+								<td>Original checkers</td>
+								<td align="center">Meekly</td>
+								<td align="center">0</td>
+							</tr>
+							<tr>
+								<td>Russian checkers</td>
+								<td align="center">Meekly</td>
+								<td align="center">0</td>
+							</tr>
+							<tr>
+								<td>Giveup! checkers</td>
+								<td align="center">Meekly</td>
+								<td align="center">0</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><a href="#" class="show-questions 3">+</a> Hopes and wishes </td>
+					<td> What you would like to see on our site </td>
+					<td align="center"> Meekly </td>
+					<td align="center"> 2 </td>
+				</tr>
+				<tr class="questions 3" hidden>
+					<td class="questions" colspan="4">
+						<table class="questions">
+							<tr>
+								<th>Question</th>
+								<th>Author</th>
+								<th>Answers</th>
+							</tr>
+							<tr>
+								<td>Hopes on site look</td>
+								<td align="center">Meekly</td>
+								<td align="center">0</td>
+							</tr>
+							<tr>
+								<td>Wishes on game abilities</td>
+								<td align="center">Meekly</td>
+								<td align="center">0</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<!-- MUROF -->
+		</div>
+		<!-- FOOTER -->
+		<div id="footer">
+			<p>&copy; <a href="#">Andrey</a>, <a href="#">Valentin</a>,  <a href="#">Maxim</a>
+		</div>
+		<!-- RETOOF -->
+	</body>
+</html>
