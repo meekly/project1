@@ -12,6 +12,7 @@ down.onmouseleave = function a_hover() {
 	m_body.style.backgroundColor="#ffcc99";
 }
 
-//news.style.offsetTop = 2000 ;
+news.style.height = document.documentElement.clientHeight + 'px';
+
 //document.documentElement.clientHeight
-//m_body.onscroll = function () {}
+

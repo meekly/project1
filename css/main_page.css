@@ -38,7 +38,7 @@
 	margin-right: 25%;
 	padding-top:20px;
 	padding-bottom: 50px;
-	background-color: #fff;
+
 }
 
 .Main_Site h1 {
@@ -53,7 +53,9 @@
 	/* margin-top:100px; */
 	width: 100%;
 	border: 1px;
-	border-radius: 5px;
+	border-radius: 15px;
+	border-style: solid;
+	background-color: #fff;
 /*	box-shadow: 0 80px 380px 5px; */
 }
 
@@ -107,14 +109,19 @@
 	width: 50%;
 	margin-right: 25%;
 	position: absolute;
-
 	margin-top: 30%;
-
 	padding-bottom: 50px;
-	background-color: #fff;
-
 }
 
-.form_news tr{
+.form_news table{
+	margin-top: 50px;
 	width: 100%;
+	border: 1px;
+	border-radius: 15px;
+	border-style: solid;
+	background-color: #fff;
+}
+
+.form_news td {
+
 }
