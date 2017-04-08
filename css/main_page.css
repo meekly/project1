@@ -3,6 +3,7 @@
  * #ff8000; light-orange. also main color
  * #333; black. main color
  * #111; dark-black. also main color
+ * #ffcc99; orange
  */
 
 
@@ -12,14 +13,32 @@
 	text-align: center;
 }
 .main_img img {
-	width: auto;
-	background-color:#e67300;
+	width: 60%;
 }
+
+.arrow{
+	opacity: 1;
+    transition: opacity 150ms linear, transform 150ms linear;  /* Плавное изменение прозрачности и увеличения */
+	padding-top: 15%;
+	text-align: center;
+}
+.arrow img{
+	width: 10%;
+}
+
+.arrow a:hover img{
+    opacity: 0.7; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(2); /* Увеличение картинки */
+}
+
 
 .Main_Site {
 	margin-left: 25%;
 	width: 50%;
 	margin-right: 25%;
+	padding-top:20px;
+	padding-bottom: 50px;
+	background-color: #fff;
 }
 
 .Main_Site h1 {
@@ -43,11 +62,8 @@
 .Main_Site tr:nth-child(3n-1) {}
 
 .Main_Site td {
-	
     padding: 0px;
     text-align: center;
-
-
     /*
     background-color: white;
 	
@@ -60,7 +76,7 @@
 }
 
 .Main_Site img{
-
+	width: 50%;
 }
 
 .Main_Site p{
@@ -83,7 +99,22 @@
 }
 .Main_Site a:hover div{
     opacity: 0.9; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
-    transform: scale(1.15); /* Увеличение картинки */
+    transform: scale(1.4); /* Увеличение картинки */
 }
 
+.form_news{
+	margin-left: 25%;
+	width: 50%;
+	margin-right: 25%;
+	position: absolute;
 
+	margin-top: 30%;
+
+	padding-bottom: 50px;
+	background-color: #fff;
+
+}
+
+.form_news tr{
+	width: 100%;
+}

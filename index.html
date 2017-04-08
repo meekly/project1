@@ -6,12 +6,13 @@
 		<link rel="stylesheet" type="text/css" href="./css/footer.css">
 		<link rel="stylesheet" type="text/css" href="./css/discuss.css">
 		<link rel="stylesheet" type="text/css" href="./css/main_page.css">
-		<script src="./javascript/jquery.js"></script>
-		<script src="./javascript/login.js"></script>
+		<script defer src="./javascript/jquery.js"></script>
+		<script defer src="./javascript/login.js"></script>
+		<script defer  type="text/javascript" src="./javascript/main_page.js"></script>
 
 		<!--		<script src="./javascript/*.js"></script> -->
 	</head>
-	<body>
+	<body id="m_body">
 		<div class="body-wrapper">
 			<ul class="menu">
 				<li class="active"><a href="index.html">Home</a></li>
@@ -21,18 +22,19 @@
 				<li style="float:right"><a href="#" name="login">Log in</a></li>
 				<li style="float:right"><a href="#">About</a></li>
 			</ul>
+		
 
 
-			<div class="main_img">
-				<img  src="./img/checkers.jpg">	
-			</div>
 
-			<div class="Main_Site">
+			<form id="m_form" class="Main_Site">
+
+				<div class="main_img">
+					<img  src="./img/checkers.png">	
+				</div>
 
 				<h1 class="Main_Header"> Welocome to checkers`s world! </h1>
 
 				<table>
-
 					<tr>
 						<td >
 							<a href="#">
@@ -71,9 +73,34 @@
 							</a>	
 						</td>
 					</tr>
-
 				</table>
+			</form>
+
+			<div class="arrow">
+				<a id="down" href="#news">
+					<img src="./img/down.png">
+				</a>
 			</div>
 
+			<form id="news" class="form_news" >
+				<table>
+					<th> 
+						<td>
+							Hot News
+						</td>
+					</th>
+					<tr>
+						<td>sdfg
+							
+						</td>
+					</tr>
+
+					<tr>
+						<td>sfg
+							
+						</td>
+					</tr>
+				</table>
+			</form>
 	</body>
 </html>
