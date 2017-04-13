@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
 	$.getJSON('data/forum.json', function(data) {
-		var table = document.getElementById('desk');
+		var table = document.getElementsByClassName('desk')[0];
 		var th = table.getElementsByTagName('th')[0];
 		console.log(data);
 		var output;

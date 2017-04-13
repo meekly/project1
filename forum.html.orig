@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+
 		<title>Checkers</title>
 		<link rel="stylesheet" type="text/css" href="./css/menu.css">
 		<link rel="stylesheet" type="text/css" href="./css/footer.css">
@@ -28,8 +28,13 @@
 			<div class="hat">
 				<img src="./img/forum-logo.png">	
 			</div>
+<<<<<<< HEAD
 	<!-- TAH -->
 
+=======
+
+			<!-- TAH -->
+>>>>>>> a094b3a5716639b9630221e3ea9df6173fc38eb3
 			<div class="search">
 				Search:
 				<input type="text">
@@ -37,7 +42,11 @@
 			</div>
 
 			<!-- FORUM -->
+<<<<<<< HEAD
+			<table id="desk">
+=======
 			<table class="desk">
+>>>>>>> a094b3a5716639b9630221e3ea9df6173fc38eb3
 				<tr>
 					<th>Theme</th>
 					<th>Description</th>

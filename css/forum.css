@@ -34,7 +34,7 @@
 	box-shadow: 0 0 50px 1px #ff8000;
 }	
 
-#desk {
+.desk {
 	font-size: 14px;
 	margin: 0 auto;
 	border-collapse: collapse;
@@ -47,17 +47,17 @@
 	margin-bottom: 20px;
 
 }
-#desk th {
+.desk th {
 	color: #bfbfbf;
 }
-#desk tr:nth-child(even) {background-color: #666666}
+.desk tr:nth-child(even) {background-color: #666666}
 
-#desk td {
+.desk td {
 	min-height: 50px;
     padding: 15px;
 }
 
-#desk tr.questions {
+.desk tr.questions {
 	background-color: transparent;
 }
 
