@@ -1,0 +1,41 @@
+[
+	{
+		"nickname":"hater",
+		"avatar":"img/userpic.png",
+		"rating":"190",
+		"games":"15",
+		"wins":"10",
+		"likes":"15",
+		"comment": {
+			"title":"GIVE ME MORE GAMES PLEASE!",
+			"text":"<p>I want more interesting games on your site. Please add chess, go, cards and also add more competitions and funny javascript</p><p>Also I want to see a lot of animations</p>",
+			"date":"12-4-17 15:12"
+		}
+	},
+	{
+		"nickname":"anon",
+		"avatar":"img/userpic.png",
+		"rating":"10",
+		"games":"1",
+		"wins":"0",
+		"likes":"201",
+		"comment": {
+			"title":"Wow amaazzing!!!",
+			"text":"<p>Had so much fun playing your game and it's very cool, really! I love it!</p><p>I'm waiting for more interesting and beautiful things. Hand on guys!</p><br><p>P.S. add more complicated AI, it' not interesting to play with a fool!</p>",
+			"date":"13-4-17 13:52"
+		}
+	},
+	{
+		"nickname":"agent777",
+		"avatar":"img/userpic.png",
+		"rating":"101",
+		"games":"5",
+		"wins":"3",
+		"likes":"-93",
+		"comment": {
+			"title":"FLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOD",
+			"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tempor lorem. Pellentesque sagittis varius massa, consectetur aliquet est gravida quis. Quisque egestas maximus risus, a dapibus leo aliquet in. Vivamus laoreet tempor convallis. Aliquam elementum dignissim nibh, non viverra ligula eleifend sit amet. Aliquam rhoncus magna elit, nec convallis turpis semper sit amet. Suspendisse potenti. Nunc eget sem et leo cursus consectetur. Aenean ullamcorper ligula magna, sed pretium quam molestie eu. Vestibulum semper odio eu bibendum euismod. Morbi venenatis commodo purus, sit amet varius lacus hendrerit ut. Aliquam dictum quam id aliquam imperdiet. Vestibulum at pulvinar lorem.</p><p>Sed lacinia velit in dolor dignissim suscipit. Nunc commodo finibus risus, vel dictum urna facilisis nec. Mauris consequat eros et arcu consectetur, a iaculis diam tempor. Curabitur vitae tellus ut elit ullamcorper dictum. Nam laoreet turpis blandit condimentum eleifend. Etiam malesuada eu enim eu pretium. Curabitur consectetur purus lacus, eu elementum turpis finibus at. Donec ligula purus, cursus a erat sed, pellentesque porta diam. Nam vel lacus vitae felis blandit suscipit. Aenean tincidunt urna nec dui condimentum, quis vulputate urna tempus. Ut vehicula, nisl ac eleifend malesuada, neque arcu accumsan nisi, at ultrices sem mauris quis ex. Ut tristique tempor lacinia. Pellente</p><br>",
+			"date":"13-4-17 14:02"
+		}
+	}
+]

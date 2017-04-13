@@ -36,6 +36,7 @@
 	box-shadow: inset 0px 0px 40px 10px rgba(50, 50, 50, 0.75);
 }
 
+
 .comment td {
 	padding: 5px;
 }
@@ -80,7 +81,12 @@
 .comment .date {
 	font-size: 12px;
 	text-align: right;
+	margin-right: 30px;
 }
 .comment .actions {
 	text-align: right;
+	margin-right: 30px;
+}
+.actions a:hover {
+	color: orange;
 }

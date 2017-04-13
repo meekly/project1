@@ -26,9 +26,24 @@ $(document).ready(function() {
 			tbl.innerHTML = '<tr><th>Questions</th><th>Author</th><th>Answers</th></tr>';
 			$.each(item.questions, function(id, question) {
 				var trq = document.createElement('tr');
-				trq.innerHTML += '<td>' + question.title + '</td>';
-				trq.innerHTML += '<td align="center">' + question.author + '</td>';
-				trq.innerHTML += '<td align="center">' + question.answers + '</td>';
+				var title_td = document.createElement('td');
+				var author_td = document.createElement('td');
+				var answers_td = document.createElement('td');
+				author_td.setAttribute('align', 'center');
+				answers_td.setAttribute('align', 'center');
+
+				if (question.href !== undefined) {
+					title_td.innerHTML += '<a href="' + question.href + '">' + question.title + '</a>';
+				} else {
+					title_td.innerHTML += question.title;
+				}
+
+				author_td.textContent = question.author;
+				answers_td.textContent = question.answers;
+
+				trq.appendChild(title_td);
+				trq.appendChild(author_td);
+				trq.appendChild(answers_td);
 				tbl.appendChild(trq);
 			});
 			insideTd.appendChild(tbl);
