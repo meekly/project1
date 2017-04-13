@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/footer.css">
 		<link rel="stylesheet" type="text/css" href="./css/forum.css">
 		<script src="./javascript/jquery.js"></script>
+		<script src="./javascript/login.js"></script>
 		<script src="./javascript/forum.js"></script>
 
 	</head>
@@ -18,12 +19,12 @@
 				<li><a href="#">News</a></li>
 				<li class="active"><a href="forum.html">Forum</a></li>
 				<li><a href="checkers.html">Checkers</a></li>
-				<li style="float:right"><a href="#">Log in</a></li>
+				<li style="float:right"><a href="#" name="login">Log in</a></li>
 				<li style="float:right"><a href="#">About</a></li>
 			</ul>
 			<!-- UNEM -->
 
-	<!-- HAT -->
+			<!-- HAT -->
 			<div class="hat">
 				<img src="./img/forum-logo.png">	
 			</div>
@@ -36,7 +37,17 @@
 			</div>
 
 			<!-- FORUM -->
-			<table id="desk">
+			<table class="desk">
+				<tr>
+
+			<div class="search">
+				Search:
+				<input type="text">
+				<input type="button" class="search-button">
+			</div>
+
+			<!-- FORUM -->
+			<table class="desk">
 				<tr>
 					<th>Theme</th>
 					<th>Description</th>

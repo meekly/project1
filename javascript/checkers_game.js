@@ -43,9 +43,10 @@ function initGame() {
     imgKingWhite.src = "img/king-white.png";;
     //click canvas listener
     canvas.addEventListener("click", function(evt) {
+        if (typeGame == "single" && TURN == "black") return;
         var rect = canvas.getBoundingClientRect();
 	    var x = Math.floor(8*(evt.clientX - rect.left) / fieldSize),
-		    y = Math.floor(8*(evt.clientY - rect.top) / fieldSize);
+		    y = Math.floor(8*(evt.clientY - rect.top) / fieldSize);        
         playerTurn(x, y);
     }, false);
     //init field

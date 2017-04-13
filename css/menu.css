@@ -43,3 +43,101 @@ ul.menu .active {
 ul.menu li.active a:hover{
 	background-color:#ff8000;
 }
+
+/*log in*/
+#hide-div {
+	position: fixed;
+    top: 0;
+    left: 0;
+	z-index: 9000;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.6;
+	display: none;
+}
+
+#form-container:before {
+	display: inline-block;
+	height: 100%;
+	content: '';
+	vertical-align: middle;
+}
+
+#form-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	display: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#login-form,
+#signup-form {
+	display: inline-block;
+	padding: 8px;
+	width: 250px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #ffcc99;
+	margin: 10%;
+}
+
+#login-close-button,
+#signup-close-button {
+	float: right;
+    width: 19px;
+	height: 19px;
+    z-index: 9999;
+	background: url(../img/close-icon.png) no-repeat;
+	background-size: 19px 19px;
+	border: 0;
+	cursor: pointer;
+}
+
+#signup-form .log,
+#login-form .log {
+	float: left;
+	margin: 7px;
+	text-align: left;
+}
+
+#login-form a[name='signup'],
+#login-form .rem {
+	font-style: italic;
+	font-size: 14px;
+	margin-right: 104px;
+}
+
+#login-form a[name='signup'] {
+	margin-right: 175px;
+}
+
+.tfield {
+	border: 0;
+	color: gray;
+	width: 220px;
+	padding: 7px;
+	margin-top: 2px;
+}
+
+#login-form input[type="submit"],
+#signup-form input[type="submit"] {
+	padding: 3px;
+	margin: 10px;
+}
+
+#login-error,
+#signup-error {
+	display: inline-block;
+	height: 40px;
+	background-color: #E77471;
+	margin: 3px;
+	margin-top: 10px;
+	padding: 3px;
+	opacity: 0.6;
+	color: brown;
+}

@@ -1,14 +1,12 @@
 document.getElementById("play-single").onclick = function() {
-    document.getElementById("play-single").style.display = "none";
-    document.getElementById("play-multi").style.display = "none";
+    document.getElementById("button-container").style.display = "none";
     document.getElementById("game").style.display = "block";
     typeGame = "single";
     initGame();
 }
 
 document.getElementById("play-multi").onclick = function() {
-    document.getElementById("play-single").style.display = "none";
-    document.getElementById("play-multi").style.display = "none";
+    document.getElementById("button-container").style.display = "none";
     document.getElementById("game").style.display = "block";
     typeGame = "multi";
     initGame();
