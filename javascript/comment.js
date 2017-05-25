@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var comments_table = document.getElementsByClassName('comment')[0];
 
-	$.getJSON("data/comment.json", function(data) {
+	$.getJSON("http://localhost:3000/how-many-games-are-supported", function(data) {
 		console.log('gotit!');
 		console.log(data);
 		$.each(data, function(id, author) {

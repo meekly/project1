@@ -2,7 +2,7 @@ var funcs = [];
 $(document).ready(function() {
 
 
-	$.getJSON('data/forum.json', function(data) {
+	$.getJSON('http://localhost:3000/forum', function(data) {
 		var table = document.getElementsByClassName('desk')[0];
 		var th = table.getElementsByTagName('th')[0];
 		console.log(data);
