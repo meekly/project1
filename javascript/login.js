@@ -13,12 +13,13 @@ function initLogInWindow() {
     CoverDiv = document.getElementById("hide-div")
 
     //a[name='login'] (log in button onclick function)
-    document.querySelector(".menu a[name='login']").onclick = function() {
+
+    $('.menu a[name="login"], #log_in_right').bind('click', function() {
         CoverDiv.style.display = LogInFormContainer.style.display = "block"
         LogInForm.style.display = "inline-block"
         if(document.getElementById("login-error")) document.getElementById("login-error").remove()
         SignUpForm.style.display = "none"
-    }
+    });
 
     //form-container
     LogInFormContainer = document.createElement("div")

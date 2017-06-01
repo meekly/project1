@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/main_page.css">
 		<script src="./javascript/jquery.js"></script>
 		<script src="./javascript/login.js"></script>
+		<script src="./javascript/animation.js"></script>
 
 		<!--		<script src="./javascript/*.js"></script> -->
 	</head>
@@ -26,7 +27,8 @@
 
 	<table class="face">
 		<tr>
-			<td><div id="left"> <div class="text_menu"> новости </div> <div><img  src="./img/left_right.png"></div></div></td>
+			<td><div id="left"><div class="text_menu"> NEWS </div> <div><img  src="./img/left_right.png"></div></div>
+			 </td>
 			
 			<td>
 			<div class="block">
@@ -84,9 +86,47 @@
 			</div>
 			</td>
 
-			<td><div id="right"> <div><img  src="./img/right_left.png"></div> <div class="text_menu"> аккаунт </div> </div></td>
+			<td><div id="right"><div><img  src="./img/right_left.png"></div> <div class="text_menu"> ACCOUNT </div> </div>
+			</td>
 		</tr>
 	</table>
 
-	</body>
+<div id="hot_news" class="table_blur">
+	<table > 
+		<tr>
+			<th>DATE</th>
+			<th>NEWS</th>
+		</tr> 
+		<tr>
+			<td>1.01.2017</td>
+			<td><a href="#"> Aploaded new kind of software... </a></td>
+		</tr>
+		<tr>
+			<td>1.02.2017</td>
+			<td><a href="#"> Balanced checker's game... </a></td>
+		</tr>
+		<tr>
+			<td>11.03.2017</td>
+			<td><a href="#"> Answered last question on the forum... </a></td>
+		</tr>
+
+	</table>
+	<button>HIDE</button>
+	<a href="news.html"><button>Go to all news</button></a> 	
+</div>
+
+<div id="hot_account">
+	 <table> 
+	<tr>
+		<th>YOU ACCOUNT:</th>
+	</tr> 
+	<tr>
+		<td>You are not log in. Please, enter into your account</td>
+	</tr>
+	</table>
+	<button>HIDE</button>
+	<button id="log_in_right">Log in</button> 
+</div>
+
+</body>
 </html>
