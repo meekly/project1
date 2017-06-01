@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/main_page.css">
 		<script src="./javascript/jquery.js"></script>
 		<script src="./javascript/login.js"></script>
+		<script src="./javascript/animation.js"></script>
 
 		<!--		<script src="./javascript/*.js"></script> -->
 	</head>
@@ -19,62 +20,102 @@
 				<li><a href="news.html">News</a></li>
 				<li><a href="forum.html">Forum</a></li>
 				<li><a href="checkers.html">Checkers</a></li>
+				<li><a href="rules.html">Rules</a></li>
 				<li style="float:right"><a href="#" name="login">Log in</a></li>
 				<li style="float:right"><a href="#">About</a></li>
 			</ul>
+		</div>
 
+	<table class="face">
+		<tr>
+			<td><div id="left"><div class="text_menu"> NEWS </div> <div><img  src="./img/left_right.png"></div></div>
+			 </td>
+			
+			<td>
+			<div class="block">
+				<div class="main_img">
+					<img  src="./img/checkers.jpg">	
+				</div>
 
-			<div class="main_img">
-				<img  src="./img/checkers.jpg">	
+				<div class="Main_Site">
+
+					<h1 class="Main_Header"> Welocome to checkers`s world! </h1>
+
+					<table>
+
+						<tr>
+							<td >
+								<a href="rules.html">
+								<div>
+									<p>Rules</p>	
+									<img  src="./img/rules.jpg">
+								</div>
+								</a>
+							</td>
+
+							<td >
+								<a href="checkers.html">
+									<div>
+										<p>Just Play</p>	
+										<img  src="./img/go_to_checkers.jpg">
+									</div>
+								</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td >
+								<a href="forum.html">
+									<div>
+										<p>Go to Forum</p>	
+										<img  src="./img/forum.jpg">
+									</div>
+								</a>	
+							</td>
+							<td >
+								<a href="#" name="signup">
+									<div>
+										<p>Register</p>	
+										<img  src="./img/registration.jpg">
+									</div>
+								</a>	
+							</td>
+						</tr>
+
+					</table>
+				</div>
 			</div>
+			</td>
 
-			<div class="Main_Site">
+			<td><div id="right"><div><img  src="./img/right_left.png"></div> <div class="text_menu"> ACCOUNT </div> </div>
+			</td>
+		</tr>
+	</table>
 
-				<h1 class="Main_Header"> Welocome to checkers`s world! </h1>
+<div id="hot_news" class="table_blur">
+	<table > 
+		<tr>
+			<th>DATE</th>
+			<th>NEWS</th>
+		</tr> 
 
-				<table>
+	</table>
+	<button>HIDE</button>
+	<a href="news.html"><button>Go to all news</button></a> 	
+</div>
 
-					<tr>
-						<td >
-							<a href="#">
-							<div>
-								<p>Rules</p>	
-								<img  src="./img/rules.jpg">
-							</div>
-							</a>
-						</td>
+<div id="hot_account">
+	 <table> 
+	<tr>
+		<th>YOU ACCOUNT:</th>
+	</tr> 
+	<tr>
+		<td>You are not log in. Please, enter into your account</td>
+	</tr>
+	</table>
+	<button>HIDE</button>
+	<button id="log_in_right">Log in</button> 
+</div>
 
-						<td >
-							<a href="checkers.html">
-								<div>
-									<p>Just Play</p>	
-									<img  src="./img/go_to_checkers.jpg">
-								</div>
-							</a>
-						</td>
-					</tr>
-
-					<tr>
-						<td >
-							<a href="forum.html">
-								<div>
-									<p>Go to Forum</p>	
-									<img  src="./img/forum.jpg">
-								</div>
-							</a>	
-						</td>
-						<td >
-							<a href="#" name="signup">
-								<div>
-									<p>Register</p>	
-									<img  src="./img/registration.jpg">
-								</div>
-							</a>	
-						</td>
-					</tr>
-
-				</table>
-			</div>
-
-	</body>
+</body>
 </html>
