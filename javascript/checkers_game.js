@@ -19,7 +19,8 @@ var canvas, ctx,
     imgKingBlack, imgKingWhite;
 
 function initFieldSize() {    
-    fieldSize = Math.floor(0.09*document.documentElement.clientHeight)*10;
+    fieldSize = window.innerHeight > window.innerWidth ? window.innerWidth : window.innerHeight;
+fieldSize = Math.floor(fieldSize * 0.8);
     document.getElementById("field").style.width = fieldSize + "px";
     document.getElementById("field").style.height = fieldSize + "px";
 }
