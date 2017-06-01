@@ -1,0 +1,47 @@
+.news {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color:#937a5b;/* #595959;*/
+  padding: 15px;
+  padding-top: 5px;
+  border-radius: 4px;
+  box-shadow: 0 15px 10px 1px gray;
+}
+.news__header {
+  color: white;
+  font-size: 42px;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+.news-one {
+  font-family: 'Times New Roman';
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  padding-top: 10px;
+  background-color: #e5cbac;
+  border-radius: 5px;
+}
+
+.news__img {
+  max-width: 90%;
+  border-radius: 4px;
+}
+
+.news__likes {
+  border-radius: 20px;
+  height: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.news__title {
+  font-size: 32px;
+}
+
+.news__text {
+  font-size: 16px;
+}
