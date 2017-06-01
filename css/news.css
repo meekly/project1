@@ -19,7 +19,7 @@
   font-family: 'Times New Roman';
   width: 90%;
   margin: 0 auto;
-  text-align: center;
+  /*text-align: center;*/
   padding: 20px;
   padding-top: 10px;
   background-color: #e5cbac;
@@ -28,13 +28,17 @@
 
 .news__img {
   max-width: 90%;
+  display: block;
+  margin: 0 auto;
   border-radius: 4px;
 }
 
 .news__likes {
   border-radius: 20px;
+  margin: 0 auto;
   height: 20px;
-  background-color: white;
+  color: white;
+  background-color:#e67300;
   padding: 10px;
 }
 
@@ -44,4 +48,11 @@
 
 .news__text {
   font-size: 16px;
+}
+
+.news__date {
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+  text-align: right;
 }
