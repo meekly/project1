@@ -60,7 +60,6 @@ $(document).ready(function() {
 	$('#hot_news button, #hot_account button:first').bind('click', function() {$(this).parent().hide('slow');});
 
 $.getJSON("http://localhost:3000/news", function( data ) {
-	//var i=0;
 
 	
 	$.each(data, function (index, news) {
@@ -68,7 +67,7 @@ $.getJSON("http://localhost:3000/news", function( data ) {
 	    $(a).attr('href', 'news.html#');
 		var tr = $('<tr>');
 		var td1 = $('<td>');
-		$(td1).text('1.01.2017');
+		$(td1).text($(news).attr('created-at'));
 		var td2 = $('<td>');
 		$(a).text(news.title);
 		td2.append(a);
@@ -76,20 +75,6 @@ $.getJSON("http://localhost:3000/news", function( data ) {
 	    $('#hot_news table').append(tr);
 
 	}); 
-
-	/*
-	for (i=0; i < max_news; i++) {
-		var a = $('<a>');
-	    $(a).attr('href', 'news.html#');
-		var tr = $('<tr>');
-		var td1 = $('<td>');
-		$(td1).text('1.01.2017');
-		var td2 = $('<td>');
-		$(a).text(data[i].title);
-		td2.append(a);
-		$(tr).append([td1, td2]);	    
-	    $('#hot_news table').append(tr);
-	}*/
 
 });
 
