@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $.getJSON("http://localhost:3000/news", function( data ) {
     $.each(data, function (index, news) {
       div = document.createElement('div');
@@ -23,7 +24,7 @@ $(document).ready(function() {
       div.appendChild(p);
       div.appendChild(likes);
       $('.news').append($(div)).append(document.createElement('hr'));
-
     });
   });
+
 });

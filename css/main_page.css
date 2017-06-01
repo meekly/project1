@@ -8,12 +8,15 @@
 #hot_news, #hot_account {
 	position: absolute;
 	z-index: 30;
+	opacity: 0;
 }
 #hot_news {
-	width : 500px;
+	max-width : 500px;
+	max-height: 600px;
+	overflow: auto;
 }
 #hot_account{
-	width : 300px;
+	max-width : 300px;
 }
 .text_menu {
 	writing-mode: tb-rl;
